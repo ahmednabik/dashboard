@@ -52,7 +52,7 @@ html {
   font-family: "Cerebri Sans";
   line-height: 1.15;
   background-color: var(--background-primary);
-  color: var(--gray-dark);
+  color: var(--dark);
   font-weight: 400;
   font-size: 15px;
 }
