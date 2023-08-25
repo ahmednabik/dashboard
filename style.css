@@ -186,3 +186,157 @@ li > a {
   align-items: center;
   gap: 5px;
 }
+.table-content {
+  width: 100%;
+}
+/* .table-wrapper {
+  position: relative;
+  width: 900px;
+  height: 600px;
+  overflow: auto;
+  background-color: #fff5;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  box-shadow: 0 0.4rem 0.8rem #0005;
+  backdrop-filter: blur(7px);
+} */
+
+/* .theading {
+  color: black;
+  font-size: 24px;
+
+  width: 100%;
+  position: absolute;
+  top: 0px;
+  padding: 10px 10px;
+} */
+
+table {
+  border-collapse: collapse;
+  border: 2px solid rgb(200, 200, 200);
+  letter-spacing: 1px;
+  font-size: 0.8rem;
+  width: 100%;
+  border: 1px solid var(--gray);
+  border-radius: 100px;
+  margin-top: 30px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+td,
+th {
+  border: 1px solid #e3e3e3;
+  padding: 10px 20px;
+  text-align: left;
+}
+
+th {
+  background-color: #f8fbfd;
+}
+
+td img {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+.progress-bar {
+  display: inline-block;
+  width: 100px;
+  height: 10px;
+  border: 1px solid black;
+  margin-right: 5px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+.progress-bar-fill {
+  width: 40%;
+  height: 100%;
+  border: 1px solid #68dcfc;
+  background-color: #68dcfc;
+}
+
+/* tr:nth-child(even) td {
+  background-color: #eaeaeadc;
+}
+
+tr:nth-child(odd) td {
+  background-color: #d7d7d7e5;
+} */
+
+tr {
+  background-color: white;
+  cursor: pointer;
+}
+
+tr:hover {
+  background-color: white;
+}
+
+caption {
+  padding: 10px;
+}
+tbody {
+  font-size: 95%;
+  font-style: normal;
+}
+
+tfoot {
+  font-weight: bold;
+}
+
+.table-cell {
+  width: 100px;
+  height: 20px;
+  border: 1px solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+.yes {
+  border-color: #e3fcec;
+  background-color: #e3fcec;
+  color: #1c8536;
+  padding: 2px 5px;
+}
+
+.no {
+  border-color: #fae6e5;
+  background-color: #fae6e5;
+  color: #da284c;
+}
+
+ion-icon {
+  font-size: 16px;
+  margin-left: 5px;
+  vertical-align: middle;
+}
+
+ion-icon .up {
+  color: red;
+}
+
+trending-up-outline {
+  color: red;
+}
+
+.details {
+  font-weight: bold;
+}
+
+td span {
+  visibility: hidden;
+}
+
+td:hover span {
+  visibility: visible;
+}
